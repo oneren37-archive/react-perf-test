@@ -12,7 +12,7 @@ const Cell = (props: ICellProps) => {
   )
 }
 
-export default React.memo(Cell)
+export default Cell
 
 interface ICellProps {
     pos: Position,
