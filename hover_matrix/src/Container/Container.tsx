@@ -3,7 +3,7 @@ import Cell from '../Cell/Cell'
 import './Container.css'
 
 const Container = () => {
-    const ROWS = 10
+    const ROWS = 100
     const COLS = 50
 
     const [currHovered, setCurrHovered] = useState<Position|null>(null)
